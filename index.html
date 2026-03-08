@@ -14,28 +14,28 @@
         
      <div class="product-grid">
         
-        <div class="card">
-            <h3>Máy in mã vạch</h3>
-            <p class="price">5.000.000đ</p>
-            <a href="https://zalo.me/0782059679" target="_blank">
-                <button>Xem chi tiết</button>
-            </a>
-        </div>
+     <div class="filter-buttons">
+    <button onclick="filterProducts('all')">Tất cả</button>
+    <button onclick="filterProducts('printer')">Máy in</button>
+    <button onclick="filterProducts('scanner')">Máy quét</button>
+</div>
 
-        <div class="card">
-            <h3>Máy quét mã vạch</h3>
-            <p class="price">2.000.000đ</p>
-            <a href="https://zalo.me/0782059679" target="_blank">
-                <button>Xem chi tiết</button>
-            </a>
-        </div>
-
+<div class="product-grid">
+    <div class="card" data-category="printer">
+        <h3>Máy in mã vạch A</h3>
+        <p>Giá: 5.000.000đ</p>
     </div>
+    <div class="card" data-category="scanner">
+        <h3>Máy quét mã vạch B</h3>
+        <p>Giá: 2.000.000đ</p>
+    </div>
+</div>
 
     </div>
 
 </body>
 </html>
+
 
 
 
