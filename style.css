@@ -26,3 +26,10 @@ button {
     padding: 12px 25px; border-radius: 25px; cursor: pointer; font-size: 1rem;
 }
 button:hover { background: #0066cc; }
+
+.filter-buttons { text-align: center; margin: 20px; }
+.filter-buttons button { 
+    padding: 10px 20px; margin: 5px; cursor: pointer; 
+    border: none; border-radius: 5px; background: #ddd; 
+}
+.filter-buttons button:hover { background: #007bff; color: white; }
